@@ -18,7 +18,7 @@ namespace WorkOutsAPIWebApp.Models
         [Required(ErrorMessage = "Поле не повинно бути порожнім")]
         [EmailAddress(ErrorMessage = "Некоректний формат Email")]
         public string Email { get; set; }
-
+    
         public virtual ICollection<WorkOuts> WorkOuts { get; set; }
     }
 }

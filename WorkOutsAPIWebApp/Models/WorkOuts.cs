@@ -19,7 +19,6 @@ namespace WorkOutsAPIWebApp.Models
         public int Duration { get; set; }
         public string Level { get; set; }
         public string Equipment { get; set; }
-
         public int UsersId { get; set; }
         public virtual Users Users { get; set; }
 
