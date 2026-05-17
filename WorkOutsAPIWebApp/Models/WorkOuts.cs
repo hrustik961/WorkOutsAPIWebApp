@@ -20,7 +20,7 @@ namespace WorkOutsAPIWebApp.Models
         public string Level { get; set; }
         public string Equipment { get; set; }
         public int UsersId { get; set; }
-        public virtual Users Users { get; set; }
+        public virtual Users? Users { get; set; }
 
         public virtual ICollection<Exercises> Exercises { get; set; }
         public virtual ICollection<Category> Categories { get; set; }

@@ -17,6 +17,6 @@ namespace WorkOutsAPIWebApp.Models
         public int ExecutionTime { get; set; }
         public string Description { get; set; }
 
-        public virtual ICollection<WorkOuts> WorkOuts { get; set; }
+        public virtual ICollection<WorkOuts>? WorkOuts { get; set; }
     }
 }
