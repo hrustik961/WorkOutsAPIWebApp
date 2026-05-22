@@ -23,6 +23,9 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 app.UseRouting();
 
 app.UseAuthorization();
